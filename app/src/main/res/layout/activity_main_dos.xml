@@ -10,7 +10,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titu"
+            android:backgroundTint="@android:color/black"/>
 
         <LinearLayout
             android:id="@+id/linear1"
@@ -52,8 +58,18 @@
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
 
-
-
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Aceptar"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Opciones"
+            />
 
 
     </LinearLayout>

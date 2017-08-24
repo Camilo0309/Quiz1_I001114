@@ -10,4 +10,9 @@
     <string name="item5">Dream League Soccer</string>
     <string name="str_1">Usuario</string>
     <string name="str_2">Contraseña</string>
+    <string name="btn_Aceptar">ACEPTAR</string>
+    <string name="btn_Opciones">MOSTRAR OPCIONES</string>
+    <string name="opc1">Opcion_Uno</string>
+    <string name="opc2">Opcion_Dos</string>
+    <string name="titu">Crear Cuenta</string>
 </resources>
