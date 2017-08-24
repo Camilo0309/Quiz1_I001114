@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Pantalla2" />
+        <activity android:name=".MainDosActivity"></activity>
     </application>
 
 </manifest>

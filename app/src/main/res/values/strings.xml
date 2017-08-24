@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Pantalla1</string>
+    <string name="item1">Clash Royale</string>
+    <string name="item2">SUPERCELL</string>
+    <string name="gd_1">24K</string>
+    <string name="gd_2">73k</string>
+    <string name="gd_3">345</string>
+    <string name="item3">Android Game / IOS Game</string>
+    <string name="item4">Clash Royale es un juego </string>
+    <string name="item5">Dream League Soccer</string>
+    <string name="str_1">Usuario</string>
+    <string name="str_2">Contraseña</string>
 </resources>
