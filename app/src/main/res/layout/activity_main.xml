@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i001114.quiz1.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/microsoft" />
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/logo1"
+                android:layout_toRightOf="@+id/logo1"
+                android:text="@string/item1"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/Titulo"
+                android:layout_toEndOf="@+id/logo1"
+                android:layout_toRightOf="@+id/logo1"
+                android:text="@string/item2"
+                android:textColor="@android:color/white"
+                android:layout_alignBottom="@+id/logo1" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
